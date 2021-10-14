@@ -1,6 +1,6 @@
-<?php
+<?php 
+    $auth=0;
+    include 'lib/includes.php';
+    include 'partials/header.php'; 
+?>
 
-include './phpqrcode/qrlib.php';
-
-$lienQrCode = "https://ndlpavranches.fr/";
-QRcode::png($lienQrCode);
